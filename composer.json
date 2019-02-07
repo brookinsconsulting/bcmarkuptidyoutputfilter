@@ -1,0 +1,24 @@
+{
+    "name": "brookinsconsulting/bcmarkuptidyoutputfilter",
+    "description": "eZ Publish Legacy extension which provides a simple event (output filter) which tidys website html output before it is sent to the browser.",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "legacy", "xcompress", "tidy", "output", "event", "filter", "class" ],
+    "homepage": "https://bitbucket.org/brookinsconsulting/bcmarkuptidyoutputfilter",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name" : "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com",
+            "email": "info@brookinsconsulting.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bcmarkuptidyoutputfilter"
+    }
+}
